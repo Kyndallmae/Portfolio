@@ -1,10 +1,10 @@
-import './App.css'
+import './app.css'
 import Header from './components/Header'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import About from './components/aboutme'
+import Portfolio from './components/portfolio'
+import Contact from './components/contactinfo'
+import Footer from './components/footer'
 
 function App() {
 
