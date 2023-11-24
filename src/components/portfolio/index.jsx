@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Project from "../project";
+import Project from "../projects";
 
 function Portfolio() {
   const [projects] = useState([

@@ -1,14 +1,14 @@
 function About() {
     return (
       <div className="row mx-3 py-5 about">
-        <div className="col-12 col-lg-4 text-center animate__animated animate__fadeInLeftBig">
+        <div className="col-12 col-lg-4 text-center">
           <img
             className="profile-pic"
             src="./img/profilepic.jpeg"
             alt="Profile Pic"
           />
         </div>
-        <div className="about-me col-12 col-lg-8 px-5 my-5 animate__animated animate__fadeInLeft">
+        <div className="about-me col-12 col-lg-8 px-5 my-5">
           <h1 className="display-4 pb-1">About Me</h1>
           <p className="about-p">
           Teacher-turned-Web Developer! As a driven and tech-savvy web developer, 

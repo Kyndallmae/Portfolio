@@ -1,5 +1,5 @@
-import './app.css'
-import Header from './components/Header'
+import './app.jsx'
+import Header from './components/header'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './components/aboutme'
 import Portfolio from './components/portfolio'
@@ -17,9 +17,9 @@ function App() {
       <main>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<About />} />
+          <Route path='/aboutme' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/contactinfo' element={<Contact />} />
         </Routes>
       </BrowserRouter>
       <Footer />
